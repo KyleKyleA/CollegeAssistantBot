@@ -12,8 +12,19 @@
     </head>
     <body>
         
-        <h1>Welcome to College Assistant ChatBot! </h1>
+        <h3>Welcome to College Assistant ChatBot! </h3>
+        
+        <div class="error" id="errorMessage"></div>
+    `   <div class="messages" id="messages">
+        <div class="talk to chatBot">
+            Well Hello there! I'm your newly proud college Assiatant chatbox here 
+            to provide any help you need. Ask me about admissions, courses, or tuitions.
+        </div>
+    </div>
 
+    <div class="loading..." id="loading">Bot is typing answer...</div>
+       
+       
         <form action="#">
             <div class="ChatBox">
                 <h3>Student Service's Assistant bot</h3>
@@ -21,6 +32,8 @@
                 <button onclick="submit">SendMessage</button>
             </div>
         </form>
+
+        
         <script src="UserData.py"></script>
         <script src="script.js"></script>
     </body>
